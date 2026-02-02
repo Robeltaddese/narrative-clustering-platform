@@ -1,0 +1,41 @@
+Filename: `.gitignore`
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Data
+*.csv
+*.pkl
+*.h5
+*.npy
+*.npz
+data/raw/
+data/processed/
+
+# Secrets
+.env
+.secrets/
+keys/
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Railway
+.railway/
